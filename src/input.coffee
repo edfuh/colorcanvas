@@ -117,6 +117,7 @@ class Input extends Spine.Controller
   replace: (input) ->
     @input = $(input)
     @color.set new Color(@input.val())
+    @render()
 
     @input.hide()
     @input.after(@el)
