@@ -19,7 +19,4 @@ task :build do
   File.open('lib/colorcanvas.input.js', 'w+') do |f|
     f.write environment['input'].to_s
   end
-
-  `uglifyjs lib/colorcanvas.js > lib/colorcanvas.min.js`
-  `uglifyjs lib/colorcanvas.input.js > lib/colorcanvas.input.min.js`
 end
