@@ -1,3 +1,4 @@
+$      = jQuery
 Color  = ColorCanvas.Color
 Spine  = ColorCanvas.Spine
 

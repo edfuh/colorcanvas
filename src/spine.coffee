@@ -1,3 +1,5 @@
+$ = jQuery
+
 Events =
   bind: (ev, callback) ->
     evs   = ev.split(' ')
