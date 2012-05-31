@@ -106,7 +106,7 @@
   background-image: url("grid.png");
 }
 
-.popup {
+.colorCanvasPopup {
   background: #FFF;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
